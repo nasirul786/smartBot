@@ -114,7 +114,7 @@ we send the form data along with userid so we can run the confirmation command f
 ![reviewing](https://i.ibb.co/GvZzk0yJ/Screenshot-2025-02-09-11-21-10-871-org-telegram-messenger-web-edit.jpg)
 Admin will review answers by clicking the button sent with the oost on LOG channel:
 
-![imglogchannel](https://i.ibb.co/dJ5MD4qS/file-158.jpg)
+![imglogchannel](https://i.ibb.co/hRjyLVRz/file-159.jpg)
 
 **User gets confirmation if their opinion got declined or aproved**
 ![declined](https://i.ibb.co/TB3skhYf/Screenshot-2025-02-09-11-26-25-611-com-i-Me-android-edit.jpg)
