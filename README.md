@@ -45,6 +45,23 @@ Below is a **9-minute demo video** showcasing all functionalities. Please watch 
 ![creating topic](https://i.ibb.co/h1Jf81rD/IMG-20250209-104534.png)
 **BB Admin can also create topic, they have admin permission for the testing purpose**
 
+## Dynamic HTML Page and API URL Generation  
+
+All HTML page codes are stored within this bot, and the **API URL is generated dynamically** to work with any bot.  
+
+If someone copies this bot, they **won't need to edit the HTML code**, as the only difference in the API URL will be the **bot ID**.  
+
+We used the `<% %>` tag to **detect the current bot ID** and dynamically insert it into the API URL as a variable.
+```js
+fetch("https://api.bots.business/v2/bots/<%bot.id%>/web-app/save-answer", {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(payload),
+        })
+```
+
 ### Setting up 10 language was tough:
 ```js
 // uncomment this for production
