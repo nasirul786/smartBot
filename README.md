@@ -39,6 +39,32 @@ Implementing this system in **10 languages** was a major challenge, but so far, 
 Below is a **9-minute demo video** showcasing all functionalities. Please watch the video and test the bot yourself!
 **Vidoe Link:** https://t.me/c/2289286399/53
 
+**channel:** https://t.me/+F_LYwqs5OJA1ZmI1
+
 ### Image showing how to create topic. 
 ![creating topic](https://i.ibb.co/h1Jf81rD/IMG-20250209-104534.png)
-**BB Admin can also create topic, they have admin permission for yhe testing purpose**
+**BB Admin can also create topic, they have admin permission for the testing purpose**
+
+### Setting up 10 language was tough:
+```js
+// uncomment this for production
+//return
+
+// add new language here
+//only 5 language can be set once
+const languages = ['hinglish', 'id', 'pt', 'bn', 'ru']
+//const languages = ['en','de', 'es', 'fr', 'hi']
+
+let cmdName;
+for(let i in languages){
+  cmdName = "lng-" + languages[i];
+  Bot.run({ command: cmdName })
+}
+
+Bot.sendMessage("Setup complete.");
+```
+
+The reason, Only **five commands** can be executed at once; otherwise, an error appears:  
+*"Too many subcommands."*  
+
+To work around this, I used **two variables**, each containing an array of **five languages**. I ran the `/setup` command twice—first with one variable, then with the other—by **commenting out one while uncommenting the other**. This allowed me to configure all **10 languages** successfully.
