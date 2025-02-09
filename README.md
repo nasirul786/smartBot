@@ -1,4 +1,4 @@
-# [Opinion_Reward_SmartBot](t.me/Opinion_Reward_SmartBot) 
+# [Opinion_Reward_SmartBot](https://t.me/Opinion_Reward_SmartBot) 
 
 A Telegram bot designed to collect customer reviews and opinions on topics created by admins, built using SmartBot technology on BB.  
 
@@ -26,7 +26,7 @@ Once a topic is created, the bot sends a WebApp button, allowing admins to defin
 
 After the topic is set up, users can share their opinions or reviews. They will see a **"Give Opinion"** button in the bot, which opens the WebApp containing the form created by the admin. Upon submission, the user's opinion is sent to the **LOG channel**, where admins can review it by clicking the **"See Answers"** button in the post.  
 
-(WebApp integration was necessary for reviewing responses, as long texts cannot be sent via a Telegram bot.)  
+(WebApp integration was necessary for reviewing responses, as long texts cannot be sent via a Telegram bot.)
 
 Once reviewed, an admin can either **decline the opinion** or **reward the user with BB Points**.  
 
@@ -37,3 +37,8 @@ Since the BB Point transfer webhook URL was causing errors, an alternative **"Se
 Implementing this system in **10 languages** was a major challenge, but so far, no errors have been encountered.  
 
 Below is a **9-minute demo video** showcasing all functionalities. Please watch the video and test the bot yourself!
+**Vidoe Link:** https://t.me/c/2289286399/53
+
+### Image showing how to create topic. 
+![creating topic](https://i.ibb.co/h1Jf81rD/IMG-20250209-104534.png)
+**BB Admin can also create topic, they have admin permission for yhe testing purpose**
