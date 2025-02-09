@@ -108,3 +108,14 @@ Bot.setProp(topicid+"-"+options.user_id, true); //saving the user id with topic 
 We save props in global variables, because we dont have BB user on the webApp, we have only webApp user.
 
 we send the form data along with userid so we can run the confirmation command for the user and show them a message in their own language.
+
+
+#### Reviewing answers from user.
+![reviewing](https://i.ibb.co/GvZzk0yJ/Screenshot-2025-02-09-11-21-10-871-org-telegram-messenger-web-edit.jpg)
+Admin will review answers by clicking the button sent with the oost on LOG channel:
+![img log channel](https://i.ibb.co/0RfvhpTj/Screenshot-2025-02-09-11-24-19-353-org-telegram-messenger-web-edit.jpg)
+
+**User gets confirmation if their opinion got declined or aproved**
+![declined](https://i.ibb.co/TB3skhYf/Screenshot-2025-02-09-11-26-25-611-com-i-Me-android-edit.jpg)
+
+![aproved](https://i.ibb.co/V5GvYK3/Screenshot-2025-02-09-11-27-25-421-org-telegram-messenger-web-edit.jpg)
