@@ -140,3 +140,15 @@ Admin will review answers by clicking the button sent with the oost on LOG chann
 
 #### Users can see their own answers after submitting an review or opinion.
 ![seeImg](https://i.ibb.co/jP11cchJ/file-160.jpg)
+
+## List of languages 
+1. English (default)
+2. Hindi
+3. Russian
+4. Portuguese
+5. Germany
+6. Indonesian
+7. Bangla
+8. Hinglish
+9. Francis
+10. Spanish 
