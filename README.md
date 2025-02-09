@@ -68,3 +68,43 @@ The reason, Only **five commands** can be executed at once; otherwise, an error 
 *"Too many subcommands."*  
 
 To work around this, I used **two variables**, each containing an array of **five languages**. I ran the `/setup` command twice—first with one variable, then with the other—by **commenting out one while uncommenting the other**. This allowed me to configure all **10 languages** successfully.
+
+### Preventing Duplicate Submissions  
+
+To ensure users don't submit opinions on the same topic multiple times, we generate a **unique topic ID** using a random string.  
+
+When a user submits an opinion, we **store the topic ID along with their user ID**. This allows us to detect duplicate submissions and prevent users from submitting again on the same topic.
+![not multiple img](https://i.ibb.co/QF9LHMHF/Screenshot-2025-02-09-11-10-06-948-org-telegram-messenger-web-edit.jpg)
+
+we check the duplicates using below code:
+```js
+var userCompletedTopic = Bot.getProp(topicId + "-" + userId);
+if (userCompletedTopic) {
+  WebApp.render({
+    content: {
+      error: true,
+      msg: "You have already submitted your opinion on this topic.\n\nYou can submit another opinion when the admins create a new topic. Stay tuned!"
+    },
+    mime_type: "application/json"
+  });
+  return;
+}
+```
+
+and save the submit status using below code, also we save the answer in answer id for rendering it on the web page:
+```js
+var randomString = Math.random().toString(36).substring(2, 7).toUpperCase(); //this is answer id
+
+var topicid = Bot.getProp("topicId") //created while creating new topic.
+
+Bot.setProp({
+  name: randomString,
+  value: options
+})
+
+Bot.setProp(topicid+"-"+options.user_id, true); //saving the user id with topic id, it will help us to verify if the user already submitted their opinion on the topic.
+```
+
+We save props in global variables, because we dont have BB user on the webApp, we have only webApp user.
+
+we send the form data along with userid so we can run the confirmation command for the user and show them a message in their own language.
