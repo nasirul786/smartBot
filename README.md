@@ -22,9 +22,9 @@ Bot admins can create topics and add questions in four formats:
 
 Admins create topics using the WebApp by sending the `/newtopic` command. (Security measures are in place to prevent unauthorized use—**BB Admin is automatically an admin on this bot**.)  
 
-Once a topic is created, the bot sends a WebApp button, allowing admins to define the topic name, description, and fields.  
+The bot sends a WebApp button, allowing admins to create topic and define the topic name, description, and fields.  
 
-After the topic is set up, users can share their opinions or reviews. They will see a **"Give Opinion"** button in the bot, which opens the WebApp containing the form created by the admin. Upon submission, the user's opinion is sent to the **LOG channel**, where admins can review it by clicking the **"See Answers"** button in the post.  
+After the topic is set up, users can share their opinions or reviews. They will see a **"Give Opinion"** button (to their own language) in the bot, which opens the WebApp containing the form created by the admin. Upon submission, the user's opinion is sent to the **LOG channel**, where admins can review it by clicking the **"See Answers"** button in the post.  
 
 (WebApp integration was necessary for reviewing responses, as long texts cannot be sent via a Telegram bot.)
 
