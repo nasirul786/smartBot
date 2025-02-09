@@ -129,7 +129,7 @@ we send the form data along with userid so we can run the confirmation command f
 
 #### Reviewing answers from user.
 ![reviewing](https://i.ibb.co/GvZzk0yJ/Screenshot-2025-02-09-11-21-10-871-org-telegram-messenger-web-edit.jpg)
-Admin will review answers by clicking the button sent with the oost on LOG channel:
+Admin will review answers by clicking the button sent with the post on LOG channel:
 
 ![imglogchannel](https://i.ibb.co/hRjyLVRz/file-159.jpg)
 
