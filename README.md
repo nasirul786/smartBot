@@ -120,3 +120,6 @@ Admin will review answers by clicking the button sent with the oost on LOG chann
 ![declined](https://i.ibb.co/TB3skhYf/Screenshot-2025-02-09-11-26-25-611-com-i-Me-android-edit.jpg)
 
 ![aproved](https://i.ibb.co/V5GvYK3/Screenshot-2025-02-09-11-27-25-421-org-telegram-messenger-web-edit.jpg)
+
+#### Users can see their own answers after submitting an review or opinion.
+![seeImg](https://i.ibb.co/jP11cchJ/file-160.jpg)
