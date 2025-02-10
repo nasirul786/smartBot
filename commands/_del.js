@@ -1,11 +1,17 @@
 /*CMD
   command: /del
   help: 
-  need_reply: 
+  need_reply: false
   auto_retry_time: 
-  folder: 
-  answer: 
-  keyboard: 
+  folder:
+
+  <<ANSWER
+
+  ANSWER
+
+  <<KEYBOARD
+
+  KEYBOARD
   aliases: 
   group: 
 CMD*/
