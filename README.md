@@ -62,7 +62,16 @@ fetch("https://api.bots.business/v2/bots/<%bot.id%>/web-app/save-answer", {
         })
 ```
 
-### Setting up 10 language was tough:
+### Setting Up 10 Languages Was Challenging  
+
+To handle multiple languages, we used **two variables with the same name**, each containing **five different languages**.  
+
+#### Setup Process:  
+1. **Comment out one variable** and run the `/setup` command.  
+2. **Once the first setup is complete**, comment out the first variable and **uncomment the second**.  
+3. Run the `/setup` command again. **Setup complete!**  
+
+No need to edit or modify **HTML** or other code, as the **bot ID in the API URL is dynamic**. We used the `<% %>` tag to automatically insert the correct bot ID.
 ```js
 // uncomment this for production
 //return
