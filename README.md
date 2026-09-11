@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This bot is now useless, i was at first place on the contest by making this bot on BB but now BB does not support publishing webApps, so this won't work anymore.
+
 # [Opinion_Reward_SmartBot](https://t.me/Opinion_Reward_SmartBot) 
 
 A Telegram bot designed to collect customer reviews and opinions on topics created by admins, built using SmartBot technology on BB.  
